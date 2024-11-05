@@ -1,0 +1,62 @@
+@fontePrincipal: Roboto, sans-serif;
+@fontDoTitulo: Lobster, cursive;
+@corDoTexto: #fff;
+@corDeFundo: pink;
+@corDoTextoBotao:#000;
+@corDoFundoBotao:#f7b731;
+
+body{
+    background-color: @corDeFundo;
+    font-family: @fontePrincipal;
+    color: @corDoTexto;
+}
+
+h1{
+    font-family: @fontDoTitulo;
+    font-size: 3em;
+}
+
+main {
+    max-width: 968px;
+    width: 100%;
+    font-size: 2em;
+    text-align: center;
+}
+
+button{
+    padding: 16px;
+    font-size: 1.3em;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 16px;
+    border-radius: 8px;
+    background-color: @corDoFundoBotao;
+    color:@corDoTextoBotao;
+    font-family: @fontePrincipal;
+}
+
+input {
+    display: block;
+    margin: 16px auto 0;
+    font-size: 2em;
+    max-width: 120px;
+    border:none;
+    background-color: transparent;
+    text-align: center;
+    color: #fff;
+    border-bottom: 16px solid #fff;
+
+}
+
+.resultado {
+    padding: 16px;
+    margin-top: 120px;
+    border:  8px dotted #fff;
+    display: none ;
+}
+
+span {
+    font-size: 3em;
+    font-weight: bold;
+    display: block ;
+}
